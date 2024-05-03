@@ -1,0 +1,14 @@
+.semester-list {
+    margin: 20px 0px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.semester {
+    margin: 7px;
+    color: white;
+    font-weight: 500;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,56 @@
+.card {
+    width: 100%;
+    background-color: white;
+    place-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card__fullName {
+    margin: 5px 0;
+}
+
+.card__img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card__mail a {
+    color: rgb(141, 136, 136);
+    text-decoration: underline;
+    &:hover {
+        color: rgb(75, 200, 160);
+    }
+}
+
+
+
+.card__dob {
+    margin-bottom: 10px;
+    color: rgb(141, 136, 136);
+}
+
+.card__btn {
+    margin-top: 5px;
+    color: #ffff;
+    background-color: rgb(75, 200, 160);
+}
+
+.card__btn:hover{
+    outline: none;
+    border: none;
+}
+
+.arrows {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.arrows:hover {
+    border: 1px solid lightgreen;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10% auto;
+  height: 100%;
+  width: 100%;
+}
+
+.details-overlay {
+  position: fixed;
+  place-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: rgba(30, 30, 30, 0.7);
+}

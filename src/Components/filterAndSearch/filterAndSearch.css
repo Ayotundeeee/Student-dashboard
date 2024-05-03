@@ -1,0 +1,7 @@
+.filter-search {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-flow: column;
+    gap: 20px;
+}

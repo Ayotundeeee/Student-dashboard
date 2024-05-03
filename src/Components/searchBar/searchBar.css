@@ -1,0 +1,27 @@
+.search {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 0.5em 1.2em;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.search form {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+}
+
+.search form input::placeholder{
+    color: black;
+}

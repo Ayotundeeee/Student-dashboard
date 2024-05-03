@@ -1,0 +1,24 @@
+.filter-select {
+    display: flex;
+    width: 100%;
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.filter-select form {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 0.5em 1em;
+}
+
+.filter-select form #filter {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+option {
+    background-color: white;
+}

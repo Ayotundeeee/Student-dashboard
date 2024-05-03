@@ -1,0 +1,22 @@
+.profile-list__header {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.profile-list__header p {
+    font-size: larger;
+    font-weight: 600;
+}
+.profile-list__header span {
+    font-size: 15px;
+    margin-left: 20px;
+    color: rgb(75, 200, 160);
+    border: 1px solid rgb(154, 232, 207);
+    border-radius: 5px;
+    padding: 2px 5px;
+}

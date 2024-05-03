@@ -1,0 +1,14 @@
+.left-nav {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: rgb(10, 20, 33);
+    padding: 0 20px;
+}
+
+.nav-header {
+    color: white;
+    text-align: center;
+    height: 10%;
+    border-bottom: 0.5px solid rgb(43, 40, 76);
+    padding: 20px 0 0 0 ;
+}
