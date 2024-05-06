@@ -109,7 +109,7 @@ console.log(searched(filteredStudents))
       />
 
       <ProfileList 
-        studentData = {filteredStudents}
+        studentData = {searched(filteredStudents)}
         openDetails={openDetails}
         semesterOptions={semesterOptions}
         currentFilter={filterValue}
